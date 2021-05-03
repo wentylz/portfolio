@@ -1,0 +1,74 @@
+/*
+Theme Name: portfolio
+Author: Maciej Wentland
+Description: Maciej Wentland portfolio
+Version: 1.0.0
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.ownicon {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 20px 20px 0px 0px;
+}
+.portfolio .image-wrapper {
+  padding: 2.5%;
+}
+
+.portfolio .image-wrapper img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  transition: opacity 0.4s;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.portfolio .image-wrapper a:hover > img {
+  opacity: 0.8;
+}
+
+.portfolio .info h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.portfolio .elementor-column {
+  margin-bottom: 50px;
+}
+
+.single-portfolio .content .elementor-column-wrap {
+  padding: 10px;
+}
+
+.button_one {
+  background-color: white;
+  padding: 10px;
+  border: solid 1px;
+  width: 130px;
+  margin: 0px 0px 10px 0px;
+  display: block;
+  border-radius: 5px;
+  background: rgb(226, 226, 226);
+}
+.button_one:hover {
+  background: rgb(209, 209, 209);
+}
+
+a .button_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-section {
+  width: 70%;
+}
