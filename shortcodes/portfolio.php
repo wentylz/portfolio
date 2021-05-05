@@ -22,7 +22,7 @@ function portfolio()
          <div class="elementor-column-wrap">
             <div class="elementor-widget-wrap">
                 <div class="image-wrapper">
-        <a href="' . get_the_permalink() . '" title = "' . get_the_title() . ' "><img src="' . $thumbnail . '" alt="' . get_the_title() . '></a>
+        <a class="img-port" href="' . get_the_permalink() . '" title = "' . get_the_title() . ' "><div class="centered"><h2>' . get_the_title() . '</h2></br>' . get_field("technology") . '</div><img src="' . $thumbnail . '" alt="' . get_the_title() . '></a>
         </div>
         <div class="info">
 

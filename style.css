@@ -29,11 +29,11 @@ body {
   margin: auto;
   transition: opacity 0.4s;
   border-radius: 10px;
-  border: 1px solid;
+  border: solid 1px;
 }
 
 .portfolio .image-wrapper a:hover > img {
-  opacity: 0.8;
+  opacity: 0.2;
 }
 
 .portfolio .info h2 {
@@ -71,4 +71,23 @@ a .button_one {
 
 .tech-section {
   width: 70%;
+}
+
+/*dynamic description*/
+
+.image-wrapper .img-port {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+}
+
+.portfolio .image-wrapper a:hover .centered {
+  opacity: 1;
 }
